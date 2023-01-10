@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import Card1 from "./Card1.js";
+import Card2 from "./Card2.js";
+import Card3 from "./Card3.js";
 import './App.css';
 
 function App() {
+  console.log(Card2);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="mx-auto p-3 container-md box-container">
+        <div className="container d-flex justify-content-center flex-row flex-wrap gap-3 mt-3 p-3">
+          <Card1 />
+          <Card2 />
+          <Card3 />
+        </div>
+      </div>
     </div>
   );
 }
-
 export default App;

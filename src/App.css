@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.card{
+  width: 20rem;
+  height: 25rem;
+}
+.header{
+  width: auto;
+}
+ul{
+  list-style: none;
+}
+.header:hover , .banner:hover {
+   transform: scale(1.04);
+}
+.box-container{
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
