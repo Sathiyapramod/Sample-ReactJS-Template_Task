@@ -3,7 +3,9 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-              sh 'docker --version'
+                echo 'start of run.,!'
+                sh 'docker build -t pipeline_first .'
+                echo 'end of run.,!! '
             }
         }
     }
