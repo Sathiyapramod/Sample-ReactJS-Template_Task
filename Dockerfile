@@ -4,7 +4,7 @@ FROM node:latest
 WORKDIR /
 COPY . .
 
-# Update npm
+# Update npm (if required)
 RUN npm install -g npm@latest
 
 # Install dependencies
